@@ -2,7 +2,7 @@ class Stack{
   Stack();
   List _items = List();
 
-  void enqueue(var element){
+  void add(var element){
     try{
     _items.add(element);
     } catch (e) {
@@ -10,7 +10,7 @@ class Stack{
     }
   }
 
-  dynamic dequeue() {
+  dynamic remove() {
     try{
       _items.removeLast();
     } catch (e) {
