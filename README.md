@@ -1,2 +1,2 @@
 # Algorithms-and-datastructures
- - My  implementations of learn algorithms and datastructures with the dart language
+ - My  implementations of learnt algorithms and datastructures in the dart language
