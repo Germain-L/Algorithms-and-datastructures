@@ -1,5 +1,6 @@
 import 'package:algorithms_and_datastructures/algorithms/search/binary_search.dart';
 import 'package:algorithms_and_datastructures/algorithms/search/linear_search.dart';
+import 'package:algorithms_and_datastructures/algorithms/sort/merge_sort.dart';
 import 'package:algorithms_and_datastructures/datastructures/queue.dart';
 import 'package:algorithms_and_datastructures/datastructures/stack.dart';
 
@@ -9,6 +10,5 @@ void main() {
     it.add(i);
   }
 
-  bool a = binarySearch(it, 1);
-  print(a);
+  mergeSort(it);
 }
